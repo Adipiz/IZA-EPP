@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import tempfile
 import time
-import cv2
+
 import pandas as pd
 import torch
 from ultralytics import YOLO
@@ -16,6 +16,7 @@ from dotenv import load_dotenv
 
 # Forzar a OpenCV a no buscar la interfaz gráfica si se carga en la nube
 os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "0"
+import cv2
 
 # Opcional: si cv2 insiste en buscar librerías gráficas, redirigir mock o asegurar headless
 
