@@ -3,7 +3,7 @@ pandas
 torch
 pydantic
 python-dotenv
-opencv-python
+opencv-python-headless
 ultralytics
 
 

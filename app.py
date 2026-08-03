@@ -11,6 +11,15 @@ from openai import OpenAI
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 
+
+
+
+# Forzar a OpenCV a no buscar la interfaz gráfica si se carga en la nube
+os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "0"
+
+# Opcional: si cv2 insiste en buscar librerías gráficas, redirigir mock o asegurar headless
+
+
 # Cargar las variables de entorno desde el archivo .env
 load_dotenv()
 
