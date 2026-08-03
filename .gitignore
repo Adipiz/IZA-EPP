@@ -23,7 +23,6 @@ reportes/
 
 # Modelos pesados de YOLO (es mejor ponerlos a descargar o compartirlos por Drive/Release)
 runs/
-*.pt
 
 # Videos de prueba locales
 video/
@@ -57,7 +56,6 @@ ppe-detection-3/
 *.mp4
 *.mov
 *.avi
-*.pt
 *.ipynb
 
 
