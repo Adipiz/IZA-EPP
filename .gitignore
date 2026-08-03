@@ -50,3 +50,11 @@ reporte_proyecto.aux
 
 app_tiempo_real.py
 app copy.py
+app2.py
+
+
+ppe-detection-3/
+*.mp4
+*.mov
+*.avi
+*.pt
