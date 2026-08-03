@@ -1,7 +1,7 @@
-opencv-python-headless
+opencv-python-headless>=4.8.0.76
 streamlit
 numpy<2.0
-ultralytics
+ultralytics --no-deps
 openai
 python-dotenv
 pandas>=2.0.0
