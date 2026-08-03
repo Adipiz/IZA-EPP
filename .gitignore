@@ -1,0 +1,50 @@
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Python / Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Archivos generados dinámicamente por tu app
+evidencias_audit/
+*.mp4
+*.mov
+*.avi
+
+reportes/
+*.pdf
+*.mp4
+*.mov
+*.avi
+
+# Modelos pesados de YOLO (es mejor ponerlos a descargar o compartirlos por Drive/Release)
+runs/
+*.pt
+
+# Videos de prueba locales
+video/
+#historial/
+
+# Configuración de editores
+.vscode/
+.DS_Store
+
+
+reporte_proyecto 2.synctex(busy)
+reporte_proyecto 3.synctex(busy)
+eporte_proyecto.aux
+reporte_proyecto.fdb_latexmk
+reporte_proyecto.fls
+reporte_proyecto.log
+reporte_proyecto.out
+reporte_proyecto.pdf
+reporte_proyecto.synctex.gz
+reporte_proyecto.tex
+reporte_proyecto.toc
+reporte_proyecto.aux
+
+

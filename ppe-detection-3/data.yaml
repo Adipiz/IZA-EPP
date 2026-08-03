@@ -1,0 +1,28 @@
+names:
+- Barefoots
+- Ear-protection
+- Harness
+- No_Ear-Protection
+- No_Glasses
+- Sandals
+- boots
+- face_mask
+- face_nomask
+- glasses
+- hand_glove
+- hand_noglove
+- head_helmet
+- head_nohelmet
+- person
+- shoes
+- vest
+nc: 17
+roboflow:
+  license: Public Domain
+  project: ppe-detection-hyeuz
+  url: https://universe.roboflow.com/work-safety/ppe-detection-hyeuz/dataset/3
+  version: 3
+  workspace: work-safety
+test: ../test/images
+train: ../train/images
+val: ../valid/images
