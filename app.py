@@ -34,7 +34,8 @@ st.set_page_config(
 # --- CARGAR EL MODELO YOLO CON ACELERACIÓN POR HARDWARE ---
 @st.cache_resource
 def cargar_modelo():
-    model = YOLO("runs/detect/industrial_safety/ppe_yolov8n_run1-2/weights/best.pt")
+   #model = YOLO("runs/detect/industrial_safety/ppe_yolov8n_run1-2/weights/best.pt")
+    model = YOLO("Model/best.pt")
     if torch.backends.mps.is_available():
         model.to("mps")
     elif torch.cuda.is_available():
