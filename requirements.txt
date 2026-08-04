@@ -6,4 +6,3 @@ python-dotenv
 opencv-python-headless
 ultralytics
 
-
