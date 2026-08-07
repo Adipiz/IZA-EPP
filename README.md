@@ -49,4 +49,15 @@ Si deseas clonar y ejecutar este proyecto en tu computadora, sigue estos pasos:
 * **`assets/`**: Recursos visuales e imágenes de apoyo.
 * **`historial/`**: Registros o archivos históricos del proyecto.
 
+
+
+
+---
+
+## 💻 Requisitos del Sistema
+
+* **Python** (versión 3.10 o 3.11 recomendada).
+* **Git** instalado para clonar el repositorio.
+* Archivo de pesos del modelo (`best.pt` dentro de la carpeta `Model/` o en la raíz, según lo requiera tu código).
+
 ---
