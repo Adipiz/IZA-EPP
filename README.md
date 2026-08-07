@@ -34,3 +34,19 @@ Si deseas clonar y ejecutar este proyecto en tu computadora, sigue estos pasos:
    ```bash
    git clone [https://github.com/TU_USUARIO/iza-epp.git](https://github.com/TU_USUARIO/iza-epp.git)
    cd iza-epp
+
+
+
+## 📁 Estructura del Repositorio
+
+* **`app.py`**: Interfaz y lógica principal de la aplicación en Streamlit.
+* **`utils.py`**: Funciones auxiliares (traducciones, procesamiento de video o métricas).
+* **`Model/`**: Carpeta que almacena los pesos de los modelos personalizados entrenados.
+* **`yolov8n.pt`**: Modelo base de YOLOv8 preentrenado.
+* **`requirements.txt`**: Dependencias de Python necesarias para el proyecto.
+* **`runtime.txt`**: Versión de Python especificada para el entorno de despliegue.
+* **`.devcontainer/`**: Configuración para contenedores de desarrollo.
+* **`assets/`**: Recursos visuales e imágenes de apoyo.
+* **`historial/`**: Registros o archivos históricos del proyecto.
+
+---
