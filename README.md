@@ -35,27 +35,30 @@ Paso 1. **Clona el repositorio:**
    git clone [https://github.com/TU_USUARIO/iza-epp.git](https://github.com/TU_USUARIO/iza-epp.git)
 
 Paso 2: Crea un entorno virtual para aislar las dependencias del proyecto:
-En Windows: python -m venv venv
-En Mac / Linux: python3 -m venv venv
+
+- En Windows: python -m venv venv
+- En Mac / Linux: python3 -m venv venv
+
 Paso 3: Activa el entorno virtual con el comando correspondiente a tu sistema operativo:
-En Windows: venv\Scripts\activate
-En Mac / Linux: source venv/bin/activate
+- En Windows: venv\Scripts\activate
+- En Mac / Linux: source venv/bin/activate
+
 Paso 4: Instala todas las librerías necesarias especificadas en el proyecto:
 
 
 Paso 3: Activa el entorno virtual con el comando correspondiente a tu sistema operativo:
-En Windows: venv\Scripts\activate
-En Mac / Linux: source venv/bin/activate
+- En Windows: venv\Scripts\activate
+- En Mac / Linux: source venv/bin/activate
 
 
 Paso 4: Instala todas las librerías necesarias especificadas en el proyecto:
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 
 Paso 5: Configura las credenciales creando un archivo llamado exactamente .env en la raíz del proyecto y añade tu clave de API:
 
-OPENAI_API_KEY=tu_clave_de_api_aqui
+- OPENAI_API_KEY=tu_clave_de_api_aqui
 
 
 Paso 6: Verifica los modelos de IA:
