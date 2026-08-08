@@ -58,7 +58,7 @@ Paso 4: Instala todas las librerías necesarias especificadas en el proyecto:
 
 Paso 5: Configura las credenciales creando un archivo llamado exactamente .env en la raíz del proyecto y añade tu clave de API:
 
-- OPENAI_API_KEY=tu_clave_de_api_aqui
+- OPENAI_API_KEY=tu_clave_de_api_aqui (debes iniciar sesión en https://platform.openai.com/ y conseguir el acceso a través de un pago menor a los 10 uso)
 
 
 Paso 6: Verifica los modelos de IA:
